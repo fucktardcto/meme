@@ -4,4 +4,6 @@ body {
 
 #album a { width: 30%; height: 30%;}
 .date {display:none;}
-h1 a {font-size: 1.5em;}
+h1 a {font-size: 1.5em;color:#000}
+nav.breadcrumbs {border:0px;margin-bottom:0em;}
+a {color:#000;}
