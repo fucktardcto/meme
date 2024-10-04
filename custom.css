@@ -15,13 +15,14 @@ footer {
     width: 50%;
     font-weight: bold;
   margin-top:1em;
+  background-color:#FFF;
 }
 
 #albums .info {
     position: absolute;
     padding: 0.5em;
     background: #FFF;
-    width: 29%;
+    width: 40%;
     top: 20px;
     height: 17%;
     color: #000;
@@ -43,7 +44,9 @@ footer {
     width: 450px;
     height: 300px;
     background-size: cover;
-    /* border-radius: 8px; */
+    border-radius: 0px;
 /*     border: 5px solid #000;
     /* border-color: #000; */ */
 }
+
+#media img {    border-radius: 0px;}
