@@ -1,13 +1,13 @@
 {
   "input": "./gallery",
   "output": "./build_output",
-  "title": "JPG",
+  "title": "Fucktard Meme",
   "sort-albums-by": "title",
   "sort-media-by": "filename",
   "download-photos": "copy",
   "cleanup": true,
   "theme": "cards",
   "css": "custom.css",
-  "footer": "",
+  "footer": "Created by the degenerate meme artist ​Mnewbis, $fcktard is unfiltered chaos ​with a hint of autism and a dash of ​dunning Kruger effect.",
   "usage-stats": false
 }
