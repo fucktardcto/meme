@@ -1,3 +1,7 @@
 body {
-  background-image:url(images/logo_small.png);
+  background-image:url(https://github.com/fcktardcto/meme/blob/master/images/logo_small.png?raw=true);
 }
+
+#album a { width: 30%; height: 30%;}
+.date {display:none;}
+h1 a {font-size: 1.5em;}
