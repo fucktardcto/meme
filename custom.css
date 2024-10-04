@@ -7,3 +7,11 @@ body {
 h1 a {font-size: 1.5em;color:#000}
 nav.breadcrumbs {border:0px;margin-bottom:0em;}
 a {color:#000;}
+
+footer {
+    color: #000;
+    font-size: 3em;
+    font-style: italic;
+    width: 50%;
+    font-weight: bold;
+}
