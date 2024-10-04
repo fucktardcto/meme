@@ -16,10 +16,14 @@ footer {
     font-weight: bold;
   margin-top:1em;
 }
+
 #albums .info {
     position: absolute;
     padding: 0.5em;
     background: #FFF;
+    width: 29%;
+    top: 20px;
+    height: 17%;
     color: #000;
     font-size: 0.9em;
     line-height: 1.2em;
