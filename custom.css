@@ -1,57 +1,78 @@
 body {
-  background-image:url(https://github.com/fcktardcto/meme/blob/master/images/logo_small.png?raw=true);
+  background-image: url(https://github.com/fcktardcto/meme/blob/master/images/logo_small.png?raw=true);
 }
 
-#album a { width: 30%; height: 30%;}
-.date {display:none;}
-h1 a {font-size: 1.5em;color:#000}
-nav.breadcrumbs {border:0px;margin-bottom:0em;}
-a {color:#000;    font-weight: bold;     background-color: #FFF;}
+a {
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+h1 a {
+  color: #000;
+  font-size: 1.5em;
+}
+
+img {
+  transition-duration: 0.3s;
+}
+
+img:hover {
+  -ms-transform: scale(1.04); /* IE 9 */
+  -webkit-transform: scale(1.04); /* Safari 3-8 */
+  transform: scale(1.04);
+}
 
 footer {
-    color: #000;
-    font-size: 3em;
-    font-style: italic;
-    width: 50%;
-    font-weight: bold;
-  margin-top:1em;
-  background-color:#FFF;
+  padding: 8px;
+  background-color: #fff;
+  color: #000;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: bold;
+  line-break: anywhere;
+}
+
+.date {
+  display: none;
+}
+
+nav.breadcrumbs {
+  margin-bottom: 0em;
+  border: 0px;
+}
+
+#album {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+#album a {
+  display: inline-block;
+  position: relative;
+  width: 30%;
+  height: 300px;
+  border-radius: 0px;
+  overflow: hidden;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 #albums .info {
-    position: absolute;
-    padding: 0.5em;
-    background: #FFF;
-    width: 40%;
-    top: 20px;
-    height: 17%;
-    color: #000;
-    font-size: 0.9em;
-    line-height: 1.2em;
-    /* margin-top: 30px; */
-    font-weight: bold;
-    /* bottom: 0; */
+  position: absolute;
+  top: 20px;
+  width: 40%;
+  height: 17%;
+  padding: 0.5em;
+  background: #fff;
+  color: #000;
+  line-height: 1.2em;
+  font-size: 0.9em;
+  font-weight: bold;
 }
 
-#albums a {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    display: inline-block;
-    margin-right: 2em;
-    margin-bottom: 0em;
-    position: relative;
-    overflow: hidden;
-    width: 30%;
-    height: 300px;
-    background-size: cover;
-    border-radius: 0px;
-/*     border: 5px solid #000;
-    /* border-color: #000; */ */
-}
-
-#media img {    border-radius: 0px;}
-img:hover{
--ms-transform: scale(1.04); /* IE 9 */
--webkit-transform: scale(1.04); /* Safari 3-8 */
-transform: scale(1.04);
+#media img {
+  border-radius: 0px;
 }
