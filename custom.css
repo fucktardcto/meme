@@ -42,35 +42,24 @@ nav.breadcrumbs {
   border: 0px;
 }
 
-#album {
+#albums {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
 
-#album a {
-  display: inline-block;
-  position: relative;
-  width: 30%;
-  height: 300px;
-  border-radius: 0px;
-  overflow: hidden;
-  background-size: cover;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#albums a {
+  margin: unset;
+  border-radius: 0;
 }
 
 #albums .info {
-  position: absolute;
   top: 20px;
-  width: 40%;
-  height: 17%;
+  bottom: unset;
+  width: auto;
   padding: 0.5em;
   background: #fff;
   color: #000;
-  line-height: 1.2em;
-  font-size: 0.9em;
-  font-weight: bold;
 }
 
 #media img {
