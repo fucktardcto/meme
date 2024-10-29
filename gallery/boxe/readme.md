@@ -1,1 +1,0 @@
-meme for punchline bot
