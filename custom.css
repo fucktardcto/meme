@@ -1,10 +1,15 @@
 body {
   background-image: url(https://github.com/fcktardcto/meme/blob/master/images/logo_small.png?raw=true);
+              background-color: #f0f0f0;
+
 }
 
 a {
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #FFF;
+  padding:5px 10px; 
+  border-radius:4px;  
+    
   font-weight: bold;
 }
 
