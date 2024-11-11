@@ -1,67 +1,151 @@
-body {
-  background-image: url(https://github.com/fcktardcto/meme/blob/master/images/logo_small.png?raw=true);
-}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fucktard Vids</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Ensure the body takes up the full viewport height */
+              background-image: url(https://github.com/fcktardcto/meme/blob/master/images/logo_small.png?raw=true);
 
-a {
-  background-color: #fff;
-  color: #000;
-  font-weight: bold;
-}
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column; /* Stack elements vertically for centering */
+            padding: 10px 20px;
+            background-color: transparent;
+            width: 86%; /* Limit the width of the header for better centering on larger screens */
+        }
+        nav {
+            display: flex;
+            justify-content: center; /* Center navigation items horizontally */
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap; /* Allow items to wrap if the screen is too narrow */
+        }
+        nav ul li {
+            margin: 0 15px; /* Space between horizontal list items */
+        }
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background-color 0.3s;
+            font-size: 20px; /* Adjust font size for better readability */
+            font-weight:bold;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        .logo {
+            max-width: 200px;
+            height: auto;
+            margin-bottom: 20px; /* Space between logo and menu items */
+        }
+        .video-grid {
+            width: 90%; /* Make video grid responsive */
+            max-width: 1200px; /* Optional: constrain the max width */
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            justify-items: center;
+            margin-top: 20px; /* Space from the header */
+        }
+        .video-container {
+            width: 100%;
+            height: 0;
+            padding-bottom: 100%; /* For a 1:1 aspect ratio */
+            position: relative;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        @media (min-width: 900px) {
+            .video-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://fucktard.meme/">WEBSITE
 
-h1 a {
-  color: #000;
-  font-size: 1.5em;
-}
+                </a></li>
+                <li><a href="https://dexscreener.com/solana/8tzytnthhufym5xyssza5ne6dh4bf3ieumv6k6shtyav">DEXSCREENER</a></li>
+                <li><a href="https://www.tensor.trade/trade/fucktards">BUY NFT</a></li>
+                <li><a href="https://maker.fucktard.meme/">MEME GENERATOR</a></li>
+                <li><a href="https://jpg.fucktard.meme/">JPG LIBRARY</a></li>
+                <li><a href="https://t.me/fcktardportal">TELEGRAM</a></li>
+            </ul>
+        </nav>
+    </header>
+   <div class="video-grid">
+        <!-- Contenu vidéo ici -->
+        <div class="video-container">
+            <video controls>
+                <source src="vhs/vhs.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+            </video>
+        </div>
+            <div class="video-container">
+            <video controls>
+                <source src="vhs/vhs2.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+            </video>
+        </div>
+            <div class="video-container">
+            <video controls>
+                <source src="vhs/vhs3.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+            </video>
+                        </div>
 
-img {
-  transition-duration: 0.3s;
-}
-
-img:hover {
-  -ms-transform: scale(1.04); /* IE 9 */
-  -webkit-transform: scale(1.04); /* Safari 3-8 */
-  transform: scale(1.04);
-}
-
-footer {
-  padding: 8px;
-  background-color: #fff;
-  color: #000;
-  font-size: 32px;
-  font-style: italic;
-  font-weight: bold;
-  line-break: anywhere;
-}
-
-.date {
-  display: none;
-}
-
-nav.breadcrumbs {
-  margin-bottom: 0em;
-  border: 0px;
-}
-
-#albums {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-}
-
-#albums a {
-  margin: unset;
-  border-radius: 0;
-}
-
-#albums .info {
-  top: 20px;
-  bottom: unset;
-  width: auto;
-  padding: 0.5em;
-  background: #fff;
-  color: #000;
-}
-
-#media img {
-  border-radius: 0px;
-}
+                    <div class="video-container">
+            <video controls>
+                <source src="vhs/vhs4.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+            </video>
+        </div>
+                    <div class="video-container">
+            <video controls>
+                <source src="vhs/vhs5.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+            </video>
+        </div>
+                    <div class="video-container">
+            <video controls>
+                <source src="vhs/vhs6.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+            </video>
+        </div>
+        </div>
+        <!-- Ajoutez les autres vidéos ici -->
+    </div>
+</body>
+</html>
